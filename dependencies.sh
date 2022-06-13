@@ -7,6 +7,9 @@ mv $(pwd) /tmp
 #Colores
 rojo="\e[1;31m"
 blanco="\e[0m"
+amarillo="\e[1;33m"
+verde="\e[1:32m"
+cian="\e[0:36m"
 
 #Actualización de paquetes
 sudo apt update
