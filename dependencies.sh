@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mv $(pwd) /tmp
+
 #VARIABLES
 
 #Colores
@@ -38,4 +40,8 @@ echo "sed -i '14 {s/^/#/}' /var/lib/gems/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_
 
 echo "alias msfconsole='bash /tmp/metasploit-framework/msfconsole'" >> ~/.bash_aliases
 source ~/.bash_aliases 
+sleep 0.5
+clear
+
+/bin/bash /tmp/server_scripts/user.sh
 
